@@ -1,3 +1,73 @@
 body {
   font-family: Manrope, Sans-Serif;
 }
+
+.top-headings-button {
+  position: relative;
+}
+
+.CTA {
+  position: absolute;
+  left: 63%;
+  top: 0%;
+  padding-left: 0%;
+  margin-left: 0%;
+}
+
+.latest-headings {
+  position: relative;
+}
+
+.latest-headings-heading {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.latest-cards {
+  position: relative;
+}
+
+.latest-cards-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(203, 203, 241);
+  position: relative;
+  border: solid 2px black;
+  padding: 0%;
+  height: 200px;
+  width: 950px;
+  margin-bottom: 2.5%;
+  margin-top: 3.5%;
+}
+
+.latest-card-date-tags {
+  position: absolute;
+  right: 10%;
+  top: 0%;
+}
+
+.latest-card-content-close {
+  position: absolute;
+  top: 0%;
+  left: 95%;
+}
+
+.latest-card-content-next {
+}
+
+.latest-card-content-social-media {
+  position: absolute;
+  top: 0%;
+  left: 92%;
+}
+
+.latest-card-content-next {
+  position: absolute;
+  top: 75%;
+  left: 18%;
+}
+
+.col-12 {
+  padding: 0%;
+}
