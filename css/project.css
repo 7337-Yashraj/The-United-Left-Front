@@ -1,4 +1,79 @@
+body {
+  font-family: Manrope, Sans-Serif;
+}
+
 h1 {
   color: blue;
   font-style: italic;
+}
+
+.container-fluid .cover {
+  position: relative;
+}
+
+.CTA {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+.home-CTA-top {
+  position: relative;
+}
+
+.container-fluid .home-CTA-heading {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+}
+
+.home-CTA-heading-right {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+}
+
+.card .text-center .home-card {
+  position: absolute;
+  right: 50%;
+  top: 90%;
+}
+
+.our-leader {
+  position: relative;
+}
+
+.our-leader .our-leader-info {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+
+.bi .bi-arrow-right-short {
+  display: inline-block;
+}
+
+.home-local-representative {
+  position: relative;
+}
+
+.container-fluid .home-local-representative {
+  text-align: center;
+}
+
+.container-fluid .common-cta {
+  position: relative;
+}
+
+.common-cta-heading {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+
+.common-cta-content {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  align-items: center;
 }

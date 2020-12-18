@@ -1,0 +1,41 @@
+body {
+  font-family: Manrope, Sans-Serif;
+}
+
+.row {
+  height: 100%;
+}
+
+.iMG {
+  background-image: url("../images/image 4.svg");
+  background-size: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.rightPane {
+  align-items: center;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.rightPane .container-fluid {
+  position: absolute;
+  top: 50%;
+}
+
+.lower {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  display: inline-block;
+}
