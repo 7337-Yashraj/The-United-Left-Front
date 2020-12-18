@@ -1,3 +1,17 @@
 body {
   font-family: Manrope, Sans-Serif;
 }
+
+.top-headings-button {
+  position: relative;
+}
+
+.CTA-sticky-top {
+  position: absolute;
+  top: 0%;
+  left: 75%;
+}
+
+.hello {
+  padding-right: 0%;
+}
