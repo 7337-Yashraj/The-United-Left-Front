@@ -1,3 +1,46 @@
 body {
   font-family: Manrope, Sans-Serif;
 }
+
+/* Donate-Main-Content-Heading */
+.main-content {
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.main-content-heading * {
+  /* position: absolute;
+  /* left: 30%;
+  top: 10%; */
+  /* display: flex; */
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.donate-main-card {
+  position: relative;
+  margin-bottom: 50%;
+}
+
+.donate-main-card-card {
+  position: absolute;
+  left: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.btn-group > button {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  height: 40px;
+  min-width: 100px;
+}
+
+.btn .btn-primary {
+  position: absolute;
+  left: 20%;
+}

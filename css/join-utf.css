@@ -50,6 +50,7 @@ body {
   left: 20%;
   background-color: darkgrey;
   border: solid 4px darkslategrey;
+  height: fit-content;
 }
 
 /* Main-Contnent-Other */
