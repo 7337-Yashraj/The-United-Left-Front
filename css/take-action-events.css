@@ -17,3 +17,24 @@ body {
   top: 5%;
   left: 85%;
 }
+
+.events-filter {
+  margin: 5%;
+}
+
+.day-headings {
+  text-align: center;
+}
+
+.event {
+  margin: 2.5%;
+  padding: 2.5%;
+}
+
+.details-row {
+  display: flex;
+}
+
+.action-btns {
+  margin: 1%;
+}
