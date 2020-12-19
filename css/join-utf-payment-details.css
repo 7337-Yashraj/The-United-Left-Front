@@ -1,3 +1,33 @@
 body {
   font-family: Manrope, Sans-Serif;
 }
+
+.payment-headings-content {
+  padding-top: 5%;
+  padding-bottom: 3.5%;
+}
+
+.main-content-content-standard {
+  background-color: cadetblue;
+  border: solid 5px darkslategray;
+}
+
+.payment-details-donate {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.btn-group > button {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 60px;
+  min-width: 120px;
+  border-radius: 0;
+}
+
+.accordion {
+  margin-top: 1.5%;
+  margin-bottom: 6.5%;
+}

@@ -1,3 +1,23 @@
 body {
   font-family: Manrope, Sans-Serif;
 }
+
+.your-details-headings-content {
+  margin-top: 5%;
+  margin-bottom: 3.5%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.your-details-main {
+  padding: 1.5%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.payment-details-buttons {
+  margin-top: 5%;
+  margin-bottom: 15.5%;
+}
