@@ -2,10 +2,10 @@ body {
   font-family: Manrope, Sans-Serif;
 }
 
-.hello > img {
+/* .hello > img {
   width: 100%;
   height: 100%;
-}
+} */
 
 .CTA-sticky-top {
   position: absolute;
@@ -16,4 +16,36 @@ body {
 .top-headings-button {
   position: relative;
   padding: 0%;
+}
+
+.sign-up-form {
+  position: relative;
+  background-color: rgb(218, 218, 218);
+  height: 100%;
+  width: 100%;
+  margin-top: 2.5%;
+}
+
+.sign-up-form-colour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgray;
+}
+
+.sign-up-form-form {
+  padding: 5%;
+}
+
+.login-form-content {
+  position: relative;
+  background-color: rgb(218, 218, 218);
+}
+
+.login-form-content-form {
+  padding: 5%;
+}
+
+.login-form-content-colour {
+  background-color: darkgray;
 }
