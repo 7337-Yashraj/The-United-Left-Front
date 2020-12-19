@@ -1,0 +1,19 @@
+body {
+  font-family: Manrope, Sans-Serif;
+}
+
+.container {
+  position: relative;
+}
+
+.container > h2 h3 h6 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.container-badges {
+  position: absolute;
+  top: 5%;
+  left: 85%;
+}
