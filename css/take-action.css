@@ -1,13 +1,34 @@
 body {
   font-family: Manrope, Sans-Serif;
+  background-color: #464545;
 }
 
-.container-fluid {
+.container {
   position: relative;
+  margin-top: 15%;
+  text-align: center;
 }
 
 .col-11 {
-  position: absolute;
-  left: 30%;
-  top: 1000%;
+  position: relative;
+  left: 0%;
+}
+
+.col-1 > svg {
+  position: relative;
+  right: 10;
+  top: -10%;
+  color: aliceblue;
+}
+
+.container H1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.container a {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
 }
