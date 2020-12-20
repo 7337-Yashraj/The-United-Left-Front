@@ -192,9 +192,142 @@ body {
   margin-left: 39%;
   margin-top: 5%;
   margin-bottom: 5%;
+  background-color: #11ad8e;
+  box-shadow: 20px 20px 50px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* .card-body {
-  position: absolute;
-  left: 50%;
-} */
+.b-card {
+  background-color: #11ad8e;
+  box-shadow: 20px 20px 50px 10px rgba(0, 0, 0, 0.2);
+  border: solid 1px #11ad8e;
+  font-weight: bolder;
+  transition: all 0.4s;
+}
+
+.b-card:hover {
+  background-color: #33bfd4;
+  box-shadow: 20px 20px 50px 10px rgba(0, 0, 0, 0.2);
+  border: solid 1px #33bfd4;
+  font-weight: lighter;
+  transform: translateY(-0.25em);
+}
+
+.our-campaign {
+  background-color: #f8f0e0;
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.our-campaign h3 {
+  color: #e4003b;
+  font-weight: bolder;
+  margin-bottom: 3%;
+  font-size: 2em;
+}
+
+.card-oc {
+  background-color: #f8f0e0;
+  box-shadow: 20px 20px 50px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+}
+
+.card-oc:hover {
+  background-color: #e4003b;
+  box-shadow: 20px 20px 100px 100px rgba(0, 0, 0, 0.2);
+  transform: translateY(1.25em);
+  color: #f8f0e0;
+}
+
+.our-leader-info h1 {
+  color: #e4003b;
+  font-weight: bolder;
+}
+
+.our-leader-info h5 {
+  color: #e4003b;
+  font-weight: lighter;
+}
+
+.our-leader-info h4 {
+  color: #343a40;
+  font-weight: normal;
+}
+
+.kk-img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 20px 20px 30px 10px rgba(0, 0, 0, 0.2);
+}
+
+.our-leader {
+  margin-bottom: 8%;
+}
+
+.home-local-representative {
+  margin-left: 1%;
+  margin-bottom: 5%;
+}
+
+.home-local-representative h4 {
+  color: #e4003b;
+  margin-bottom: 1%;
+  font-weight: bolder;
+}
+
+.home-join-movement {
+  margin-bottom: 5%;
+}
+
+.join-movement-col {
+  background-color: #e4003b;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 150px;
+  width: 150px;
+  color: #f8f0e0;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  box-shadow: 20px 20px 30px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.6s;
+}
+
+.join-movement-col:hover {
+  background-color: #11ad8e;
+  margin: 1.5%;
+  display: flex;
+  align-items: flex-end;
+  justify-items: flex-end;
+  height: 150px;
+  width: 150px;
+  color: #343a40;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  box-shadow: 20px 20px 100px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-join-movement h1 {
+  color: #e4003b;
+  font-weight: bold;
+}
+
+.home-join-movement h3 {
+  color: #343a40;
+  font-weight: bold;
+}
+
+.home-join-movement h4 {
+  color: #11ad8e;
+  font-weight: bold;
+}
+
+.copyrights {
+  background-color: #363636;
+  color: white;
+}
+
+.footer {
+  background-color: #454545;
+  color: white;
+}

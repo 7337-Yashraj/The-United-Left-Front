@@ -54,6 +54,7 @@ h2 {
 .latest-cards-content:hover {
   background-color: #54ccb4;
   box-shadow: 20px 20px 100px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.25em);
 }
 
 .latest-cards-content > svg {
