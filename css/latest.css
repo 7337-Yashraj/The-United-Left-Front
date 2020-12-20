@@ -160,3 +160,11 @@ a:hover {
 .pagination > a {
   color: #555756;
 }
+
+.badge-primary {
+  background-color: #555756;
+}
+
+.svg {
+  color: #555756;
+}
