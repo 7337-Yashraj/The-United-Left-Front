@@ -3,6 +3,46 @@ body {
   background-color: #faf8f4;
 }
 
+.navbar {
+  background-color: #454545;
+  box-shadow: 0 5px 60px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.navbar a {
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  color: aliceblue;
+  background-color: #11ad8e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-collapse {
+  font-size: 0.75rem;
+}
+
+.btn-primary {
+  background-color: #454545;
+}
+
+.btn-primary:hover {
+  background-color: #e4003b;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: #5c5c5c;
+  font-size: 0.95em;
+}
+
 .main-content-heading {
   position: relative;
 }
@@ -154,4 +194,15 @@ body {
 
 .btn-secondary:hover {
   background-color: #e4003b;
+}
+
+/* Footer */
+.copyrights {
+  background-color: #363636;
+  color: white;
+}
+
+.footer {
+  background-color: #454545;
+  color: white;
 }
