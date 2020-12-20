@@ -1,5 +1,6 @@
 body {
   font-family: Manrope, Sans-Serif;
+  background-color: #f8f0e0;
 }
 
 .container {
@@ -37,4 +38,8 @@ body {
 
 .action-btns {
   margin: 1%;
+}
+
+.events-headings-content > h5 h1 {
+  color: #e4003b;
 }

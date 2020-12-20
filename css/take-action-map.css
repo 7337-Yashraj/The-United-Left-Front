@@ -1,3 +1,52 @@
 body {
   font-family: Manrope, Sans-Serif;
+  background-color: #f8f0e0;
+}
+
+h5 {
+  font-weight: lighter;
+  color: #e4003b;
+  font-size: 1.25em;
+}
+
+h1 {
+  font-weight: bold;
+  color: #e4003b;
+  font-size: 2.75em;
+}
+
+h4 {
+  font-weight: 300px;
+  color: #f8f0e0;
+  font-size: 1.5em;
+}
+
+h6 {
+  font-weight: 300px;
+  color: #d8d8d8;
+  font-size: 0.85em;
+}
+
+.map-headings-content {
+  margin-top: 5%;
+}
+
+.map-search-content {
+  background-color: #e4003b;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #11ad8e;
+}
+
+.btn-secondary {
+  background-color: #c4c4c4;
+}
+
+.map-map {
+  width: 100%;
 }
