@@ -2,40 +2,92 @@ body {
   font-family: Manrope, Sans-Serif;
 }
 
-.row {
-  height: 100%;
-}
-
-.iMG {
-  background-image: url("../images/image 4.svg");
-  background-size: 100%;
-  text-align: center;
-  display: inline-block;
-}
-
-.rightPane {
+/* .rightPane {
   align-items: center;
-}
+} */
 
 .container-fluid {
   position: relative;
   text-align: center;
+  padding: 0%;
 }
 
-.centered {
+.container-fluid > img {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+}
+
+.centered > h1 {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 20%;
+  top: 40%;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+.centered2 > h3 {
+  position: absolute;
+  left: 20%;
+  top: 46%;
+  font-weight: lighter;
+}
+
+.col-6 {
+  background-color: #acc3cb;
 }
 
 .rightPane .container-fluid {
   position: absolute;
-  top: 50%;
+  top: 40%;
 }
 
-.lower {
+.rightPane .container-fluid > h2 {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.rightPane .container-fluid > h4 {
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.form-control {
+  width: 55%;
+  margin-top: 0.05%;
+  margin-bottom: 0.05%;
+}
+
+.form-group {
+  margin-top: 1.25%;
+  margin-bottom: 1.25%;
+  line-height: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #e4003b;
+  margin-top: 1.5%;
+  border-color: NONE;
+  transition: all 0.5s;
+  border: solid 1px none;
+}
+
+.btn-primary:hover {
+  background-color: #11ad8e;
+  transform: translateY(-0.25em);
+}
+
+.lower > p {
   position: absolute;
-  top: 100%;
-  left: 100%;
-  display: inline-block;
+  top: 90%;
+  left: 70%;
+}
+
+.lower > svg {
+  position: absolute;
+  top: 89.8%;
+  left: 90%;
 }
