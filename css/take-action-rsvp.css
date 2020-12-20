@@ -6,6 +6,25 @@ body {
   position: relative;
 }
 
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.navbar a {
+  color: aliceblue;
+}
+
+.navbar-collapse {
+  font-size: 0.75rem;
+}
+
 .top-stuff {
   margin: 2.5%;
 }
@@ -14,6 +33,11 @@ body {
   padding-left: 2.5%;
   padding-right: 2.5%;
   border-radius: 12px;
+  background-color: #2d9c56;
+}
+
+.category-badges > span {
+  background-color: darkgreen;
 }
 
 .event {
@@ -22,12 +46,24 @@ body {
   padding: 2.5%;
 }
 
+.event-title h5 {
+  font-weight: bolder;
+}
+
+.event-title p {
+  color: grey;
+}
+
 .details-row {
   display: flex;
 }
 
 .action-btns {
   margin: 1%;
+}
+
+.action-btns > button {
+  background-color: #2d9c56;
 }
 
 .rsvp-form {
@@ -39,4 +75,8 @@ body {
   width: 100%;
   margin-bottom: 0;
   background-color: grey;
+}
+
+.day-categories > span {
+  background-color: #e4003b;
 }

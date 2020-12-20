@@ -3,6 +3,25 @@ body {
   background-color: #f8f0e0;
 }
 
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.navbar a {
+  color: aliceblue;
+}
+
+.navbar-collapse {
+  font-size: 0.75rem;
+}
+
 .container {
   position: relative;
 }
@@ -22,14 +41,30 @@ body {
 .events-filter {
   margin: 5%;
 }
+.events-filter > .container-fluid > span {
+  padding: 0.75%;
+  background-color: #2d9c56;
+  /* padding-bottom: 1.5%; */
+}
 
 .day-headings {
   text-align: center;
+  font-weight: bolder;
+  color: grey;
+  /* font-size: small; */
 }
 
 .event {
   margin: 2.5%;
   padding: 2.5%;
+}
+
+.event-title h5 {
+  font-weight: bolder;
+}
+
+.event-title p {
+  color: grey;
 }
 
 .details-row {
@@ -40,6 +75,15 @@ body {
   margin: 1%;
 }
 
-.events-headings-content > h5 h1 {
+.action-btns > button {
+  background-color: #2d9c56;
+}
+
+.events-headings-content > h5,
+h1 {
   color: #e4003b;
+}
+
+.day-categories > span {
+  background-color: #e4003b;
 }
