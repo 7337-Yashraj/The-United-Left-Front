@@ -2,9 +2,22 @@ body {
   font-family: Manrope, Sans-Serif;
 }
 
-h1 {
-  color: blue;
-  font-style: italic;
+/* Navbar-Common-CSS */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+.navbar a {
+  color: aliceblue;
+}
+
+.navbar-collapse {
+  font-size: 0.85rem;
 }
 
 .container-fluid .cover {
@@ -13,7 +26,7 @@ h1 {
 
 .CTA {
   position: absolute;
-  right: 0%;
+  right: 5%;
   top: 0%;
 }
 

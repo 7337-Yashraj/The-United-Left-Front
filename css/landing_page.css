@@ -80,14 +80,16 @@ body {
   transform: translateY(-0.25em);
 }
 
-.lower > p {
+.lower > p > a {
   position: absolute;
   top: 90%;
   left: 70%;
+  color: white;
 }
 
 .lower > svg {
   position: absolute;
   top: 89.8%;
   left: 90%;
+  color: white;
 }

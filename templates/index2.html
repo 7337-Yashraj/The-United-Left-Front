@@ -19,9 +19,7 @@
     <title>Index2</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar sticky-top navbar-expand-lg navbar-light bg-light"
-    >
+    <nav class="navbar navbar sticky-top navbar-expand-lg">
       <a class="navbar-brand" href="#">The United Left Front</a>
       <button
         class="navbar-toggler"
@@ -34,11 +32,29 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavAltMarkup"
+      >
         <div class="navbar-nav">
-          <a class="nav-link active" href="#"
-            >ABOUT<span class="sr-only">(current)</span></a
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
           >
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+
           <a class="nav-link" href="#">PEOPLE</a>
           <a class="nav-link" href="#">WHERE DO WE STAND</a>
           <a class="nav-link" href="#">MEMBERS</a>
