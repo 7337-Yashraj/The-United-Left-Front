@@ -1,3 +1,13 @@
 body {
   font-family: Manrope, Sans-Serif;
 }
+
+.container-fluid {
+  position: relative;
+}
+
+.col-11 {
+  position: absolute;
+  left: 30%;
+  top: 1000%;
+}

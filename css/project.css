@@ -9,7 +9,6 @@ body {
 
 .navbar-brand {
   color: aliceblue;
-  font-weight: bolder;
 }
 
 .navbar a {
@@ -32,18 +31,59 @@ body {
 
 .home-CTA-top {
   position: relative;
+  padding: 0%;
+  border: solid 15px #e4003b;
+}
+
+.home-img {
+  height: 100%;
+  width: 100%;
 }
 
 .container-fluid .home-CTA-heading {
   position: absolute;
-  left: 10%;
+  left: 5%;
   top: 40%;
+}
+
+.home-CTA-heading > h2 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.home-CTA-heading > h3 {
+  font-weight: lighter;
+  font-size: 1.5em;
 }
 
 .home-CTA-heading-right {
   position: absolute;
-  right: 10%;
+  left: 50%;
   top: 40%;
+  text-align: center;
+}
+
+.form-control {
+  width: 55%;
+  margin-top: 0.05%;
+  margin-bottom: 0.05%;
+}
+
+.form-group {
+  margin-top: 1.25%;
+  margin-bottom: 1.25%;
+  line-height: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #e4003b;
+  margin-top: 1.5%;
+  border-color: NONE;
+  transition: all 0.5s;
+  border: solid 1px none;
 }
 
 .card .text-center .home-card {
@@ -88,5 +128,4 @@ body {
   position: absolute;
   left: 45%;
   top: 40%;
-  align-items: center;
 }

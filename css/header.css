@@ -1,0 +1,21 @@
+body {
+  font-family: Manrope, Sans-Serif;
+}
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.navbar a {
+  color: aliceblue;
+}
+
+.navbar-collapse {
+  font-size: 0.75rem;
+}
