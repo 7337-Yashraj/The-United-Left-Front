@@ -18,48 +18,201 @@
     <link rel="stylesheet" href="../css/take-action-volunteer.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav
-      class="navbar navbar sticky-top navbar-expand-lg navbar-light bg-light"
-    >
-      <a class="navbar-brand" href="#">The United Left Front</a>
+    <!-- Common-Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <a class="navbar-brand" href="#">
+        <img
+          src="../images/Home-Hammer-Sickle.svg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+          loading="lazy"
+        />
+        The United Left Front
+      </a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="#"
-            >ABOUT<span class="sr-only">(current)</span></a
-          >
-          <a class="nav-link" href="#">PEOPLE</a>
-          <a class="nav-link" href="#">WHERE DO WE STAND</a>
-          <a class="nav-link" href="#">MEMBERS</a>
-          <a class="nav-link" href="#">2024 CAMPAIGN</a>
-          <a class="nav-link" href="#">GET INVOLVED</a>
-          <a class="nav-link" href="#">RESOURCES</a>
-          <a class="nav-link" href="#">LATEST</a>
-          <a class="nav-link" href="#">LOG-IN</a>
 
-          <form class="form-inline">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              ABOUT
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">WHO WE ARE</a>
+              <a class="dropdown-item" href="#">WHAT WE DO</a>
+              <a class="dropdown-item" href="#">WHOM WE SERVE</a>
+              <a class="dropdown-item" href="#">HOW WE WORK</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">LEGACY</a>
+              <a class="dropdown-item" href="#">BREAKING AWAY FROM SHACKLES</a>
+              <a class="dropdown-item" href="#">KARL MARX</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              PEOPLE
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"
+                >OUR LEADER - GENERAL SECRETARY</a
+              >
+              <a class="dropdown-item" href="#">POLITBURO</a>
+              <a class="dropdown-item" href="#">SHADOW CABINET</a>
+              <a class="dropdown-item" href="#">OUR STATE GOVERNMENTS</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">LOCAL GOVERNMENTS</a>
+              <a class="dropdown-item" href="#"
+                >FIND YOUR LOCAL REPRESENTATIVE</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              CAMPAIGN 2024
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">WHAT IS IN IT FOR YOU</a>
+              <a class="dropdown-item" href="#">HOW CAN YOU CREATE IMPACT</a>
+              <a class="dropdown-item" href="#">MANIFESTO</a>
+              <a class="dropdown-item" href="#">AREA WISE MEMBERS</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">AGAINST THE BJP</a>
+              <a class="dropdown-item" href="#">SOUL OF NATION</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              WHERE DO WE STAND
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">CAMPAIGNS</a>
+              <a class="dropdown-item" href="#">2019 MANIFESTO</a>
+              <a class="dropdown-item" href="#">PREVIOUS MANIFESTO</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              MEMBERS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">WHY</a>
+              <a class="dropdown-item" href="#">NEW MEMBERS</a>
+              <a class="dropdown-item" href="#">PARTY MEMBERS</a>
+              <a class="dropdown-item" href="#">TAKE PART</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">TOOLS FOR ACTIVISTS </a>
+              <a class="dropdown-item" href="#">GROUPS</a>
+              <a class="dropdown-item" href="#">AFFILIATED UNIONS</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownGetInvolved"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              GET INVOLVED
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">DISCUSSION & DEBATE</a>
+              <a class="dropdown-item" href="#">CRAFT POLICY</a>
+              <a class="dropdown-item" href="#">TALK TO YOUR LEADER</a>
+
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"
+                >TALK TO YOUR LOCAL REPRESENTATIVE</a
+              >
+              <a class="dropdown-item" href="#">ATTEND A BAITHAK</a>
+              <a class="dropdown-item" href="#">ON THE FRONTLINES</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+              >RESOURCES</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+              >LOG-IN</a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-primary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
       </div>
     </nav>
 
@@ -216,6 +369,105 @@
         </div>
       </div>
     </section>
+
+    <footer class="bg footer">
+      <div class="container py-5">
+        <div class="row py-4">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <img src="img/logo.png" alt="" width="180" class="mb-3" />
+            <p class="font-italic text-muted">
+              Workers of the world unite!! for you have nothing to loose your
+              chains.
+            </p>
+            <ul class="list-inline mt-4">
+              <li class="list-inline-item">
+                <a href="#" target="_blank" title="twitter"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" target="_blank" title="facebook"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" target="_blank" title="instagram"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" target="_blank" title="pinterest"
+                  ><i class="fa fa-pinterest"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" target="_blank" title="vimeo"
+                  ><i class="fa fa-vimeo"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Our People</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#" class="text-muted">Politburo</a></li>
+              <li class="mb-2">
+                <a href="#" class="text-muted">Shadow Cabinet</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-muted">Kanahiya Kumar</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-muted">You And Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Take Action</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2">
+                <a href="#" class="text-muted">Find An Event</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-muted">Create Change</a>
+              </li>
+              <li class="mb-2"><a href="#" class="text-muted">Donate</a></li>
+              <li class="mb-2">
+                <a href="#" class="text-muted">Become a member</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Get in touch</h6>
+            <p class="text-muted mb-4">Find your local representative.</p>
+            <div class="p-1 rounded border">
+              <div class="input-group">
+                <input
+                  type="text"
+                  placeholder="Enter your pin code/area name"
+                  aria-describedby="button-addon1"
+                  class="form-control border-0 shadow-0"
+                />
+                <div class="input-group-append">
+                  <button id="button-addon1" type="submit" class="btn btn-link">
+                    <i class="fa fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyrights -->
+      <div class="bg py-4 copyrights">
+        <div class="container text-center">
+          <p class="text-muted mb-0 py-2">
+            © 2020 The-United-Left-Front. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <!--Scripts-->
     <script

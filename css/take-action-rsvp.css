@@ -7,7 +7,8 @@ body {
 }
 
 .navbar {
-  background-color: #343a40;
+  background-color: #454545;
+  box-shadow: 0 5px 60px 0 rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand {
@@ -19,10 +20,30 @@ body {
 
 .navbar a {
   color: aliceblue;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  color: aliceblue;
+  background-color: #11ad8e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .navbar-collapse {
   font-size: 0.75rem;
+}
+
+.btn-primary {
+  background-color: #454545;
+}
+
+.btn-primary:hover {
+  background-color: #e4003b;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: #5c5c5c;
+  font-size: 0.95em;
 }
 
 .top-stuff {
@@ -79,4 +100,15 @@ body {
 
 .day-categories > span {
   background-color: #e4003b;
+}
+
+/* Footer */
+.copyrights {
+  background-color: #363636;
+  color: white;
+}
+
+.footer {
+  background-color: #454545;
+  color: white;
 }

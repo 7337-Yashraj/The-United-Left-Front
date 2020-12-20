@@ -32,3 +32,14 @@ body {
   font-size: 2.5rem;
   font-weight: bolder;
 }
+
+/* Footer */
+.copyrights {
+  background-color: #363636;
+  color: white;
+}
+
+.footer {
+  background-color: #454545;
+  color: white;
+}
