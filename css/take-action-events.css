@@ -53,6 +53,11 @@ body {
   left: 5%;
 }
 
+.events-headings-content {
+  margin-top: 5%;
+  font-weight: bolder;
+}
+
 .container-badges {
   position: absolute;
   top: 5%;
@@ -73,6 +78,10 @@ body {
   font-weight: bolder;
   color: grey;
   /* font-size: small; */
+}
+
+.events-card-set {
+  background-color: #f8f0e0;
 }
 
 .event {

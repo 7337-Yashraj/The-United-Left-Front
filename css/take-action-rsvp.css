@@ -46,6 +46,10 @@ body {
   font-size: 0.95em;
 }
 
+.events-headings-content {
+  margin-top: 5%;
+}
+
 .top-stuff {
   margin: 2.5%;
 }
@@ -59,6 +63,10 @@ body {
 
 .category-badges > span {
   background-color: darkgreen;
+}
+
+.events-card-set {
+  background-color: thistle;
 }
 
 .event {
