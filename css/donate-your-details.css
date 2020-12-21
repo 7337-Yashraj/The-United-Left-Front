@@ -1,5 +1,6 @@
 body {
   font-family: Manrope, Sans-Serif;
+  background-color: #f8f0e0;
 }
 
 .navbar {
@@ -45,11 +46,12 @@ body {
 .donate-your-details-headings-content {
   margin-top: 3.5%;
   margin-bottom: 3.5%;
+  color: #e4003b;
+  font-weight: bolder;
 }
 
 .donate-your-details-main-content {
-  margin-top: 3.5%;
-  margin-bottom: 3.5%;
+  margin-bottom: 5%;
 }
 
 /* Footer */

@@ -1,5 +1,6 @@
 body {
   font-family: Manrope, Sans-Serif;
+  background-color: #f8f0e0;
 }
 
 .navbar {
@@ -48,7 +49,21 @@ body {
 }
 
 .payment-headings-content {
-  margin-top: 5%;
+  margin-top: 1.5%;
+  margin-bottom: 5%;
+}
+
+.payment-headings-content h1 {
+  font-weight: bolder;
+  color: #e4003b;
+}
+
+h5 {
+  font-weight: lighter;
+  color: #e4003b;
+}
+
+.payment-methods {
   margin-bottom: 5%;
 }
 

@@ -1,5 +1,6 @@
 body {
   font-family: Manrope, Sans-Serif;
+  background-color: #f8f0e0;
 }
 
 .navbar {
@@ -44,24 +45,36 @@ body {
 
 /* Donate-Main-Content-Heading */
 .main-content {
-  position: relative;
   margin-bottom: 5%;
+  margin-left: 10%;
+  color: #e4003b;
+  font-weight: bolder;
 }
 
-.main-content-heading * {
-  text-align: center;
+.main-content-heading h1 {
+  color: #e4003b;
+  font-weight: bolder;
+}
+
+.main-content-heading h5 {
+  color: #e4003b;
+  font-weight: lighter;
+}
+
+.main-content-heading a {
+  color: #11ad8e;
+  font-weight: lighter;
 }
 
 .donate-main-card {
-  position: relative;
   margin-bottom: 50%;
+  margin-left: 15%;
 }
 
-.donate-main-card-card {
-  position: absolute;
-  left: 15%;
-  display: flex;
-  align-items: center;
+.card-body {
+  background-color: #11ad8e;
+  box-shadow: 20px 20px 50px 10px rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
 }
 
 .btn-group > button {
@@ -69,14 +82,28 @@ body {
   margin-bottom: 2.5%;
   margin-left: 5%;
   margin-right: 5%;
-
   height: 40px;
   min-width: 100px;
+  background-color: #11ad8e;
+  box-shadow: 20px 20px 50px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+  font-weight: bolder;
 }
 
-.btn .btn-primary {
-  position: absolute;
-  left: 20%;
+.btn-group > button:hover {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 40px;
+  min-width: 100px;
+  background-color: #e4003b;
+  box-shadow: 10px 10px 60px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(0.25em);
+}
+
+.btn-primary .donate-pay {
+  background-color: #e4003b;
 }
 
 /* Footer */
