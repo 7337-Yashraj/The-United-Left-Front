@@ -163,6 +163,10 @@ h7 {
   margin-bottom: 5%;
 }
 
+.payment-details-buttons {
+  padding: 5%;
+}
+
 /* Footer */
 .copyrights {
   background-color: #363636;

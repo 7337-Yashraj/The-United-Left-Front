@@ -432,12 +432,19 @@
       <div class="container payment-details-buttons">
         <div class="row">
           <div class="col">
-            <button type="button" class="btn btn-primary btn-lg btn-block s">
-              Submit Payment for Rs.500
-            </button>
-            <button type="button" class="btn btn-secondary btn-lg btn-block">
-              CANCEL
-            </button>
+            <form action="../templates/index2.html" method="POST">
+              <a href="../templates/index2.html" class="payment-utf-a">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-lg btn-block s"
+                >
+                  Submit Payment for Rs.500
+                </button>
+              </a>
+              <button type="button" class="btn btn-secondary btn-lg btn-block">
+                CANCEL
+              </button>
+            </form>
           </div>
         </div>
       </div>

@@ -53,7 +53,8 @@
           <li class="nav-item dropdown">
             <a
               class="nav-link"
-              href="#"
+              href="../templates/about2.html"
+              target="_self"
               id="navbarDropdown"
               role="button"
               data-toggle="dropdown"
@@ -68,7 +69,9 @@
               <a class="dropdown-item" href="#">WHOM WE SERVE</a>
               <a class="dropdown-item" href="#">HOW WE WORK</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">LEGACY</a>
+              <a class="dropdown-item" href="../templates/about2.html"
+                >LEGACY</a
+              >
               <a class="dropdown-item" href="#">BREAKING AWAY FROM SHACKLES</a>
               <a class="dropdown-item" href="#">KARL MARX</a>
             </div>
@@ -197,9 +200,22 @@
               >RESOURCES</a
             >
           </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="../templates/latest.html"
+              tabindex="-1"
+              aria-disabled="true"
+              >LATEST</a
+            >
+          </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+            <a
+              class="nav-link"
+              href="../templates/login.html"
+              tabindex="-1"
+              aria-disabled="true"
               >LOG-IN</a
             >
           </li>
@@ -273,15 +289,21 @@
               role="group"
               aria-label="Basic example"
             >
-              <button type="button" class="btn btn-primary JOIN-THE-ULF">
-                JOIN THE ULF
-              </button>
-              <button type="button" class="btn btn-primary TAKE-ACTION">
-                TAKE ACTION
-              </button>
-              <button type="button" class="btn btn-primary DONATE-NOW">
-                DONATE NOW
-              </button>
+              <a href="../templates/join-utf.html"
+                ><button type="button" class="btn btn-primary JOIN-THE-ULF">
+                  JOIN THE ULF
+                </button></a
+              >
+              <a href="../templates/take-action.html">
+                <button type="button" class="btn btn-primary TAKE-ACTION">
+                  TAKE ACTION
+                </button>
+              </a>
+              <a href="../templates/donate.html">
+                <button type="button" class="btn btn-primary DONATE-NOW">
+                  DONATE NOW
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -436,12 +458,16 @@
           <div class="col-6">
             <div class="container">
               <div class="row join-movement">
-                <div class="col join-movement-col">BECOME A MEMBER</div>
+                <a href="../templates/join-utf.html">
+                  <div class="col join-movement-col">BECOME A MEMBER</div>
+                </a>
                 <div class="col join-movement-col">WHY JOIN THE ULF</div>
               </div>
               <div class="row join-movement">
                 <div class="col join-movement-col">RENEW MEMBERSHIP</div>
-                <div class="col join-movement-col">ACCESS YOUR ACCOUNT</div>
+                <a href="../templates/login.html">
+                  <div class="col join-movement-col">ACCESS YOUR ACCOUNT</div>
+                </a>
               </div>
             </div>
           </div>

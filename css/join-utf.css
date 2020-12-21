@@ -196,6 +196,11 @@ body {
   background-color: #e4003b;
 }
 
+.standard-join-utf {
+  display: inline-block;
+  color: #f8f0e0;
+}
+
 /* Footer */
 .copyrights {
   background-color: #363636;
