@@ -21,7 +21,7 @@
     <!-- Navbar -->
     <!-- Common-Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../templates/index2.html">
         <img
           src="../images/Home-Hammer-Sickle.svg"
           width="30"
@@ -236,24 +236,36 @@
       <div class="container donate-your-details-main-content">
         <div class="row">
           <div class="col-8">
-            <form
-              method="GET"
-              action="../templates/donate-payment-details.html"
-            >
+            <form method="POST" action="../php/donate-your-details.php">
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="inputEmail4">First Name</label>
-                  <input type="text" class="form-control" id="inputEmail4" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputEmail4"
+                    name="first_name"
+                  />
                 </div>
                 <div class="form-group col-md-6">
                   <label for="inputEmail4">Last Name</label>
-                  <input type="text" class="form-control" id="inputPassword4" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputPassword4"
+                    name="last_name"
+                  />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" />
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail4"
+                    name="email"
+                  />
                 </div>
                 <div class="form-group col-md-6">
                   <label for="inputPassword4">Contact</label>
@@ -261,6 +273,7 @@
                     type="number"
                     class="form-control"
                     id="inputPassword4"
+                    name="contact"
                   />
                 </div>
               </div>
@@ -271,6 +284,7 @@
                   class="form-control"
                   id="inputAddress"
                   placeholder="1234 Main St"
+                  name="address_1"
                 />
               </div>
               <div class="form-group">
@@ -280,16 +294,22 @@
                   class="form-control"
                   id="inputAddress2"
                   placeholder="Apartment, studio, or floor"
+                  name="address_2"
                 />
               </div>
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="inputCity">City</label>
-                  <input type="text" class="form-control" id="inputCity" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputCity"
+                    name="city"
+                  />
                 </div>
                 <div class="form-group col-md-4">
                   <label for="inputState">State</label>
-                  <select id="inputState" class="form-control">
+                  <select id="inputState" class="form-control" name="state">
                     <option selected>Choose...</option>
                     <option value="Andhra Pradesh">Andhra Pradesh</option>
                     <option value="Andaman and Nicobar Islands">
@@ -335,7 +355,12 @@
                 </div>
                 <div class="form-group col-md-2">
                   <label for="inputZip">Pin Code</label>
-                  <input type="text" class="form-control" id="inputZip" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputZip"
+                    name="pincode"
+                  />
                 </div>
               </div>
               <div class="form-group">

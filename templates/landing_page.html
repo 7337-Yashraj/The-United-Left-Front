@@ -31,7 +31,7 @@
           <div class="container-fluid">
             <h4>GET THE LATEST FROM</h4>
             <h2>THE UNITED LEFT FRONT</h2>
-            <form>
+            <form method="POST" action="../php/landing-page-common-cta.php">
               <div class="form-group">
                 <label for="formGroupExampleInput"></label>
                 <input
@@ -39,6 +39,7 @@
                   class="form-control"
                   id="formGroupExampleInput"
                   placeholder="Please Enter Your First Name"
+                  name="first_name"
                 />
               </div>
               <div class="form-group">
@@ -49,6 +50,7 @@
                   id="exampleInputEmail1"
                   placeholder="Please Enter Your Email-Id"
                   aria-describedby="emailHelp"
+                  name="email"
                 />
               </div>
               <div class="form-group">
@@ -58,6 +60,7 @@
                   class="form-control"
                   id="formGroupExampleInput2"
                   placeholder="Please Enter Your Pin-Code"
+                  name="pincode"
                 />
               </div>
               <button type="submit" class="btn btn-primary">

@@ -20,7 +20,7 @@
   <body>
     <!-- Common-Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../templates/index2.html">
         <img
           src="../images/Home-Hammer-Sickle.svg"
           width="30"
@@ -318,7 +318,7 @@
             <!-- <button type="button" class="btn btn-secondary">Remind Later</button> -->
           </div>
           <div class="rsvp-form">
-            <form>
+            <form method="POST" action="../php/take-action-rsvp.php">
               <div class="form-row">
                 <div class="col-md-6 mb-3">
                   <label for="validationDefault01">First name</label>
@@ -328,6 +328,7 @@
                     id="validationDefault01"
                     placeholder="Mark"
                     required
+                    name="first_name"
                   />
                 </div>
                 <div class="col-md-6 mb-3">
@@ -338,6 +339,7 @@
                     id="validationDefault02"
                     placeholder="Otto"
                     required
+                    name="email"
                   />
                 </div>
               </div>
@@ -349,6 +351,7 @@
                     class="form-control"
                     id="validationDefault03"
                     required
+                    name="pincode"
                   />
                 </div>
                 <div class="col-md-6 mb-3">
@@ -358,6 +361,7 @@
                     class="form-control"
                     id="validationDefault03"
                     required
+                    name="contact"
                   />
                 </div>
               </div>

@@ -22,7 +22,7 @@
   <body>
     <!-- Common-Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../templates/index2.html">
         <img
           src="../images/Home-Hammer-Sickle.svg"
           width="30"
@@ -248,7 +248,10 @@
                 <div class="container-fluid">
                   <h3>GET THE LATEST FROM</h3>
                   <h2>THE UNITED LEFT FRONT</h2>
-                  <form>
+                  <form
+                    method="POST"
+                    action="../php/landing-page-common-cta.php"
+                  >
                     <div class="form-group">
                       <label for="formGroupExampleInput"></label>
                       <input
@@ -256,6 +259,7 @@
                         class="form-control"
                         id="formGroupExampleInput"
                         placeholder="Please Enter Your First Name"
+                        name="first_name"
                       />
                     </div>
                     <div class="form-group">
@@ -266,6 +270,7 @@
                         id="exampleInputEmail1"
                         placeholder="Please Enter Your Email-Id"
                         aria-describedby="emailHelp"
+                        name="email"
                       />
                     </div>
                     <div class="form-group">
@@ -275,6 +280,7 @@
                         class="form-control"
                         id="formGroupExampleInput2"
                         placeholder="Please Enter Your Pin-Code"
+                        name="pincode"
                       />
                     </div>
                     <button type="submit" class="btn btn-primary s">
@@ -314,9 +320,21 @@
       <div class="card-body">
         <h5 class="card-title">Chip In</h5>
         <p class="card-text">Power Our People-led Campaign</p>
-        <a href="#" class="btn btn-primary b-card">Rs.500</a>
-        <a href="#" class="btn btn-primary b-card">Rs.1500</a>
-        <a href="#" class="btn btn-primary b-card">Other</a>
+        <a
+          href="../templates/donate-your-details.html"
+          class="btn btn-primary b-card"
+          >Rs.500</a
+        >
+        <a
+          href="../templates/donate-your-details.html"
+          class="btn btn-primary b-card"
+          >Rs.1500</a
+        >
+        <a
+          href="../templates/donate-your-details.html"
+          class="btn btn-primary b-card"
+          >Other</a
+        >
       </div>
     </div>
 
@@ -424,18 +442,23 @@
             <div class="container-fluid home-local-representative">
               <h4>FIND YOUR LOCAL UNITED LEFT FRONT REPRESENTATIVE</h4>
             </div>
-            <div class="custom-file mb-3">
+            <div class="input-group mb-3">
               <input
-                type="file"
-                class="custom-file-input"
-                id="validatedCustomFile"
-                required
+                type="text"
+                class="form-control"
+                placeholder="Please Enter Your Pin-Code/Area Name"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
               />
-              <label class="custom-file-label" for="validatedCustomFile"
-                >Enter Your Pin-Code/Name of the area</label
-              >
-              <div class="invalid-feedback">
-                Example invalid custom file feedback
+              <div class="input-group-append">
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  id="button-addon2"
+                  style="background-color: #e4003b; color: white"
+                >
+                  Search
+                </button>
               </div>
             </div>
           </div>
@@ -490,7 +513,10 @@
                 <div class="container-fluid">
                   <h4>GET THE LATEST FROM</h4>
                   <h2>THE UNITED LEFT FRONT</h2>
-                  <form>
+                  <form
+                    method="POST"
+                    action="../php/landing-page-common-cta.php"
+                  >
                     <div class="form-group">
                       <label for="formGroupExampleInput"></label>
                       <input
@@ -498,6 +524,7 @@
                         class="form-control"
                         id="formGroupExampleInput"
                         placeholder="Please Enter Your First Name"
+                        name="first_name"
                       />
                     </div>
                     <div class="form-group">
@@ -508,6 +535,7 @@
                         id="exampleInputEmail1"
                         placeholder="Please Enter Your Email-Id"
                         aria-describedby="emailHelp"
+                        name="email"
                       />
                     </div>
                     <div class="form-group">
@@ -517,6 +545,7 @@
                         class="form-control"
                         id="formGroupExampleInput2"
                         placeholder="Please Enter Your Pin-Code"
+                        name="pincode"
                       />
                     </div>
                     <button type="submit" class="btn btn-primary">
