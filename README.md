@@ -3,7 +3,7 @@
 - The website can be seen live at: 
 ## https://7337-yashraj.github.io/The-United-Left-Front/templates/landing_page.html
 
-This website is an attempt to build together an united identity to the multitude if worker/peasant led movements around India. It was designed and developed keeoing in mind the target audience and a focus to attract the masses. 
+This website is an attempt to build together an united identity to the multitude of worker/peasant led movements around India. It was designed and developed keeoing in mind the target audience and a focus to attract the masses. 
 
 - Yashraj Wadalkar 32
 
